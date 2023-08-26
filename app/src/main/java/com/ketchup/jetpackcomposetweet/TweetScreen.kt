@@ -230,7 +230,7 @@ fun TweetInformation() {
 @Composable
 fun TweetImage() {
     Image(
-        painter = painterResource(id = R.drawable.profile),
+        painter = painterResource(id = R.drawable.kev),
         contentDescription = "Tweet image",
         modifier = Modifier
             .fillMaxWidth()
@@ -278,7 +278,7 @@ fun TweetInformationHeader() {
 @Composable
 fun TweetProfileLogo() {
     Image(
-        painter = painterResource(id = R.drawable.profile),
+        painter = painterResource(id = R.drawable.kev),
         contentDescription = "Circular profile imagen",
         modifier = Modifier
             .clip(CircleShape)
